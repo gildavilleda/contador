@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    color: rgb(38, 13, 165);
+    text-align: center;
+    margin: 50px;
+    align-items: center;
+
+    
+}
+
+.container{
+    width: 100%;
+    padding: 100px;
+    margin-top: 25px;
+    background-color: rgb(59, 63, 103);
+    border-radius: 50px;
+ 
+
+}
+
+#num{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.dec btn btn-outline-light,
+ .reset btn btn-outline-secondary, 
+ .inc btn btn-outline-light{
+    width: 75px;
+    height: 75px;
+
+}
